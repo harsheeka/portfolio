@@ -1,5 +1,23 @@
-ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.topnav {
+  background-color: #ff69b4; /* Bright pink background for the navigation bar */
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #fff; /* White text for better contrast */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ffb6c1; /* Light pink for the hover effect */
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ff1493; /* Deep pink for the active link */
+  color: white;
 }
